@@ -37,9 +37,9 @@ File: Layout CSS
 #header{padding:50px 0;}
 
 #header #logo *{margin:0; padding:0; line-height:1;}
-#header #logo h1{margin-top:8px; font-size:26px; letter-spacing:3px;}
+#header #logo h1{margin-top:8px; font-size:26px; letter-spacing:6px;}
 
-#header #quickinfo{font-size:.8rem; text-transform:uppercase;}
+#header #quickinfo{font-size:1rem; text-transform:none;}
 #header #quickinfo li{margin-right:50px;}
 #header #quickinfo li:last-child{margin-right:0;}
 #header #quickinfo strong{display:block; margin:0 0 -5px 0; padding:0; font-size:.9rem;}
@@ -286,7 +286,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#800000;}
 .row2{color:#474747; background-color:#F1F1F1;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#A8A7A6; background-color:#222222;}
-.row4 a{color:#800000;}
+.row4 a{color:#AF4F52;}
 .row5, .row5 a{color:#FFFFFF; background-color:#800000;}
 
 
@@ -296,7 +296,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#800000;}
 
 
 /* Header */
-#header #logo a{color:inherit;}
+#header #logo a{color:#AF4F52; font-style:italic;}
 
 
 /* Page Intro */
@@ -320,7 +320,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#800000;}
 #footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.2);}
 
 #footer nav a{color:inherit;}
-#footer nav li:first-child a, #footer nav a:hover{color:#800000;}
+#footer nav li:first-child a, #footer nav a:hover{color:#AF4F52;}
 
 #footer .faico a{color:inherit; background-color:#141414;}
 #footer .faico a:hover{color:#FFFFFF;}
@@ -340,7 +340,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#800000;}
 #mainav form select{color:#FFFFFF; background-color:#000000; border-color:rgba(255,255,255,.2);}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#9E4195;}
+#breadcrumb li:last-child a{color:#AF4F52;}
 
 .container .sidebar nav a{color:inherit; border-color:#F4F4F4;}
 .container .sidebar nav a:hover{color:#800000;}
@@ -348,7 +348,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#800000;}
 .pagination a, .pagination strong{border-color:#F4F4F4;}
 .pagination .current *{color:#FFFFFF; background-color:#800000;}
 
-#backtotop{color:#FFFFFF; background-color:#800000;}
+#backtotop{color:#FFFFFF; background-color:#AF4F52;}
 
 
 /* Tables + Comments */
