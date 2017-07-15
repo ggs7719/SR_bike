@@ -37,7 +37,7 @@ File: Layout CSS
 #header{padding:50px 0;}
 
 #header #logo *{margin:0; padding:0; line-height:1;}
-#header #logo h1{margin-top:8px; font-size:26px; letter-spacing:6px;}
+#header #logo h1{margin-top:8px; font-size:26px; letter-spacing:10px;}
 
 #header #quickinfo{font-size:1rem; text-transform:none;}
 #header #quickinfo li{margin-right:50px;}
@@ -259,7 +259,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#A8A7A6; background-color:#191919;}
-a{color:#800000;}
+a{color:#FF0000;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#F4F4F4;}
 label span{color:#FF0000; background-color:inherit;}
@@ -286,8 +286,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#800000;}
 .row2{color:#474747; background-color:#F1F1F1;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#A8A7A6; background-color:#222222;}
-.row4 a{color:#AF4F52;}
-.row5, .row5 a{color:#FFFFFF; background-color:#800000;}
+.row4 a{color:#FF0000;}
+.row5, .row5 a{color:#FFFFFF; background-color:#FF0000;}
 
 
 /* Top Bar */
@@ -296,7 +296,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#800000;}
 
 
 /* Header */
-#header #logo a{color:#AF4F52; font-style:italic;}
+#header #logo a{color:#FF0000; font-style:italic; font-weight:bold;}
 
 
 /* Page Intro */
@@ -320,7 +320,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#800000;}
 #footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.2);}
 
 #footer nav a{color:inherit;}
-#footer nav li:first-child a, #footer nav a:hover{color:#AF4F52;}
+#footer nav li:first-child a, #footer nav a:hover{color:#FF0000;}
 
 #footer .faico a{color:inherit; background-color:#141414;}
 #footer .faico a:hover{color:#FFFFFF;}
@@ -334,13 +334,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#800000;}
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#800000; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FF0000; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#800000;}
 #mainav form select{color:#FFFFFF; background-color:#000000; border-color:rgba(255,255,255,.2);}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#AF4F52;}
+#breadcrumb li:last-child a{color:#FF0000;}
 
 .container .sidebar nav a{color:inherit; border-color:#F4F4F4;}
 .container .sidebar nav a:hover{color:#800000;}
